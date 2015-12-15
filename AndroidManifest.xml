@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.tronxyz.bug_report"
+        package="com.qiku.bug_report"
         android:sharedUserId="android.uid.system"
         android:versionCode="100"
         android:versionName="1.0.0">

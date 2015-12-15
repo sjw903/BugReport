@@ -85,7 +85,7 @@
             android:layout_width="fill_parent"
             android:layout_height="5dip" />
 
-        <com.tronxyz.bug_report.ui.AttachmentView
+        <com.qiku.bug_report.ui.AttachmentView
             android:id="@+id/attachmentsView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

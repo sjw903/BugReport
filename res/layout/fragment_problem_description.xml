@@ -159,7 +159,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <com.tronxyz.bug_report.ui.BottomBar
+    <com.qiku.bug_report.ui.BottomBar
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_gravity="bottom"

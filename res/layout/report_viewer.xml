@@ -149,7 +149,7 @@
         android:layout_height="2dip"
         android:background="#90909090" />
 
-    <com.tronxyz.bug_report.ui.ExpandableLinearLayout
+    <com.qiku.bug_report.ui.ExpandableLinearLayout
         android:id="@+id/reportAttachmentsList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

@@ -79,7 +79,7 @@
             android:layout_height="10dp"
             />
         
-        <com.tronxyz.bug_report.ui.AttachmentView
+        <com.qiku.bug_report.ui.AttachmentView
             android:id="@+id/attachmentsView"
             android:layout_below="@id/editorReminder"
             android:layout_width="fill_parent"
