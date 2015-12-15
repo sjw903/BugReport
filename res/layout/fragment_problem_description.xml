@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_all_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Launcher" >
+
+    <LinearLayout
+        android:id="@+id/ll_problem_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/problem_description_introduction"
+            android:textSize="@dimen/fragment_report_title_size" />
+
+        <!-- <ScrollView -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="135dp" -->
+        <!-- android:layout_marginLeft="20dp" -->
+        <!-- android:layout_marginRight="20dp" -->
+        <!-- android:layout_marginTop="10dp" -->
+        <!-- android:fillViewport="true" -->
+        <!-- android:overScrollMode="never" -->
+        <!-- android:scrollbars="none" > -->
+
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/et_problem_description" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="135dp" -->
+        <!-- android:gravity="top" -->
+        <!-- android:hint="@string/problem_description_hint" -->
+        <!-- android:maxLength="2001" /> -->
+        <!-- </ScrollView> -->
+
+        <EditText
+            android:id="@+id/et_problem_description"
+            android:layout_width="fill_parent"
+            android:layout_height="135dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:focusableInTouchMode="true"
+            android:gravity="top"
+            android:hint="@string/problem_description_hint"
+            android:maxLength="2001" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_add_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/iv_add_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bug2go_ic_blue_close" />
+
+        <TextView
+            android:id="@+id/tv_add_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/problem_description_add_more"
+            android:textColor="#52a3f9"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_add_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/problem_description_image_introduction"
+            android:textSize="@dimen/fragment_report_title_size" />
+
+        <GridView
+            android:id="@+id/gd_problem_screen_shots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="14dp"
+            android:columnWidth="55dp"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_add_phone_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/problem_user_info_phone"
+                android:textSize="@dimen/fragment_report_title_size" />
+
+            <EditText
+                android:id="@+id/et_problem_user_info_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="phone"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/problem_user_info_email"
+                android:textSize="@dimen/fragment_report_title_size" />
+
+            <EditText
+                android:id="@+id/et_problem_user_info_email"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.tronxyz.bug_report.ui.BottomBar
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/bt_problem_user_info_commit"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/report_fragment_button"
+            android:text="@string/problem_user_info_commit"
+            android:textColor="#0e1a3e"
+            android:textSize="18sp" />
+    </com.tronxyz.bug_report.ui.BottomBar>
+
+</LinearLayout>

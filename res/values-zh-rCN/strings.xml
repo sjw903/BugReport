@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">意见反馈</string>
+
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="apply">应用</string>
+    <string name="discard">放弃</string>
+    <string name="save">保存</string>
+
+    <string name="menu_show_reports">报告列表</string>
+    <string name="menu_edit_settings">设置</string>
+    <string name="menu_delete_reports">删除报告</string>
+
+    <string name="no_reports">没有缓存报告</string>
+    <string name="notification_bugreport_failed">缺陷报告错误.</string>
+    <string name="notification_bugreport_timeout">日志收集超时.</string>
+    <string name="notofication_cached_report_title">等待缺陷报告</string>
+    <string name="notification_cached_report_network_title">网络可用</string>
+    <string name="notofication_cached_report_info" formatted="false">你有%d个报告%s上传</string>
+    <string name="notification_invalid_device_id_title">设备 UID 无效</string>
+    <string name="notification_invalid_device_id_msg">联系你的设备管理着寻求帮助.</string>
+    <string name="notification_title_battery_suspended">暂停上传</string>
+    <string name="notification_message_battery_suspended">将手机连接外接电源以恢复上传.</string>
+    <string name="notification_title_incomplete_setup">请先设置</string>
+    <string name="notification_msg_incomplete_setup">缺陷报告设置未完成</string>
+    <string name="report_list">缓存的缺陷报告</string>
+    <string name="report_list_menu_view">查看</string>
+    <string name="report_list_menu_edit">编辑</string>
+    <string name="report_list_menu_send">发送</string>
+    <string name="report_list_menu_delete">删除</string>
+
+    <string name="settings_category_userinfo">用户联系信息</string>
+    <string name="settings_category_engineer">工程模式配置</string>
+    <string name="settings_fname">姓名</string>
+    <string name="settings_dialog_title_edittext_fname">输入你的姓名</string>
+    <string name="settings_email">电子邮箱</string>
+    <string name="settings_dialog_title_edittext_email">输入你的电子邮箱地址</string>
+    <string name="settings_phone">电话号码</string>
+    <string name="settings_dialog_title_edittext_phone">输入你的电话号码</string>
+    <string name="settings_coreid">工号</string>
+    <string name="settings_dialog_title_edittext_coreid">输入你的苏宁工号</string>
+    <string name="settings_additional_logs">额外的日志</string>
+    <string name="settings_add_screenshot">添加截屏</string>
+    <string name="settings_collect_location">收集我的位置</string>
+    <string name="settings_upload">上传选项</string>
+    <string name="settings_wifi_only">通过wifi上传</string>
+    <string name="settings_wifi_only_summary_on">允许wifi上传</string>
+    <string name="settings_wifi_only_summary_off">禁止wifi上传</string>
+    <string name="settings_mobile_upload">通过移动网络上传</string>
+    <string name="settings_mobile_upload_summary_on">允许通过移动网络上传</string>
+    <string name="settings_mobile_upload_summary_off">禁止通过移动网络上传</string>
+    <string name="settings_battery_level">最低电量</string>
+    <string name="settings_battery_level_summary">当电池电量低于指定值时，上传将暂停，外接电源可允许恢复</string>
+    <string name="settings_notification">通知</string>
+    <string name="settings_deam_notification">系统缺陷通知</string>
+    <string name="settings_deam_notification_on">当上传时显示系统捕获缺陷</string>
+    <string name="settings_deam_notification_off">当上传时不显示系统捕获缺陷</string>
+    <string name="settings_auto_collect_title">报告系统缺陷</string>
+    <string name="settings_auto_collect_summary_on">系统检测到的缺陷将被报告</string>
+    <string name="settings_auto_collect_summary_off">系统检测到的缺陷将被忽略</string>
+    <string name="settings_auto_upload">自动上传</string>
+    <string name="settings_auto_upload_summary_on">新报告准备好后就马上上传</string>
+    <string name="settings_auto_upload_summary_off">新报告将被放到发送箱，等待手动上传</string>
+    <string name="settings_coreid_required">你的设备组需要工号</string>
+
+    <string name="upload_pending">网络不可用，任务挂起.</string>
+    <string name="upload_not_allowed">不允许通过移动网络上传报告，任务挂起.</string>
+    <string name="upload_already_exist">缺陷报告已经在上传队列.</string>
+    <string name="upload_msg_failed">上传缺陷报告失败.</string>
+    <string name="upload_msg_canceled">上传已经被取消.</string>
+    <string name="upload_msg_conpression_failed">压缩失败.</string>
+    <string name="upload_msg_invalid_log">无效日志文件.</string>
+    <string name="toast_invalid_email">无效电子邮箱地址</string>
+    <string name="toast_log_collection_started">日志收集开始.</string>
+    <string name="toast_log_collection_completed">日志收集完成.</string>
+    <string name="toast_save_as_draft">报告保存为草稿</string>
+
+    <string name="alert_dialog_collector_failed_msg">没有从设备上收到调试信息，请稍后再试.</string>
+    <string name="alert_dialog_sd_missing_msg">设备上没有剩余空间, 请插入SD卡或清理内存后再试.</string>
+    <string name="alert_dialog_no_summary_title">需要问题摘要.</string>
+    <string name="alert_dialog_no_summary_msg">发送报告前请输入问题摘要.</string>
+    <string name="alert_dialog_collection_on_going">请等待日志收集完成.</string>
+    <string name="alert_dialog_delete_report">确定要删除这个报告?</string>
+    <string name="alert_dialog_delete_reports">确定要删除这些报告?</string>
+    <string name="alert_dialog_upload_reprot">确定要上传这个报告?</string>
+    <string name="alert_dialog_cancel_upload">确定要取消上传?</string>
+    <string name="alert_dialog_title_discard_or_save_report">丢弃或保存?</string>
+    <string name="alert_dialog_msg_discard_or_save_report">你想丢弃还是保存报告?</string>
+    <string name="alert_dialog_title_discard_report">丢弃报告?</string>
+    <string name="alert_dialog_msg_discard_report">你想丢弃这个报告?</string>
+    <string name="alert_dialog_title_contactinfo">需要联系信息</string>
+    <string name="alert_dialog_message_contactinfo">请确认所有的信息都已经配置完成.</string>
+    <string name="alert_dialog_title_error">错误信息</string>
+    <string name="alert_dialog_message_error">缺陷报告遇到问题,请稍后重试.</string>
+    <string name="alert_dialog_title_use_magic_key">组合键</string>
+    <string name="alert_dialog_message_use_magic_key">请输入组合键以触发日志收集.</string>
+    <string name="alert_dialog_title_invalid_logfile">无效日志文件</string>
+    <string name="alert_dialog_message_invalid_logfile">日志文件不存在, 按\"好\"删除这个报告或\"取消\"取消这次上传.</string>
+    <string name="alert_dialog_title_discard_changes">放弃修改</string>
+    <string name="alert_dialog_message_discard_changes">你确认要放弃修改吗?</string>
+    <string name="alert_dialog_title_save_changes">应用修改</string>
+    <string name="alert_dialog_message_save_changes">你确认要修改吗?</string>
+    <string name="alert_dialog_delete_attach">你确认要删除这个附件?</string>
+    <string name="alert_dialog_title_attach_screenshot">添加截屏</string>
+    <string name="alert_dialog_message_attach_screenshot">你想为这个问题添加截屏吗?</string>
+    <string name="alert_dialog_dont_show_again">不要再次显示</string>
+    <string name="alert_dialog_title_file_mgr_required">没有文件管理器.</string>
+    <string name="alert_dialog_message_file_mgr_required">请安装文件管理器?</string>
+    <string name="alert_dialog_incompatible_system">安装的缺陷管理版本和你的系统软件不兼容</string>
+    <string name="alert_dialog_report_incompleted">你选择了一个不完整的报告，你要编辑吗?</string>
+    <string name="alert_dialog_about_title">关于</string>
+    <string name="alert_dialog_about_msg" formatted="false">版本: %s\n设备 UID: %s\n</string>
+    <string name="alert_dialog_about_author">问题专家</string>
+
+    <!-- others -->
+    <string name="report_selected">个报告已选中</string>
+    <string name="bug_prompt">缺陷：</string>
+    <string name="transmit_paused">暂停</string>
+    <string name="resuming_upload">恢复上传....</string>
+    <string name="complete_upload">完成</string>
+    <string name="contacting_server">连接服务器....</string>
+    <string name="cancelling_upload">取消上传....</string>
+    <string name="type_auto">自动报告</string>
+    <string name="type_user">手动报告</string>
+    <string name="auto_notification">手机刚才发生了稳定性问题，点击可填写描述。</string>
+
+    <!-- report status -->
+    <string name="building_report">生成缺陷报告</string>
+    <string name="waiting_user_input_report">等待用户输入</string>
+    <string name="ready_to_upload_report">准备上传报告</string>
+    <string name="ready_to_compress_report">准备压缩报告</string>
+    <string name="compressing_report">正在压缩</string>
+    <string name="compressing_paused_report">压缩停止</string>
+    <string name="ready_to_transmit_report">准备传输报告</string>
+    <string name="transmitting_report">正在传输报告</string>
+    <string name="ready_to_complete_report">准备结束</string>
+    <string name="completing_report">正在结束</string>
+    <string name="ready_to_archive_report">准备归档</string>
+    <string name="archived_full_report">全部归档</string>
+    <string name="archived_partial_report">部分归档</string>
+    <string name="build_failed_report">生成报告失败</string>
+    <string name="compress_failed_report">压缩报告失败</string>
+    <string name="transmit_failed_report">上传报告失败</string>
+    <string name="complete_failed_report">完成失败</string>
+    <string name="user_deleted_outbox_report">用户删除发送箱报告</string>
+    <string name="user_deleted_draft_report">用户删除草稿报告</string>
+    <string name="queued_for_upload">缓存到上传队列</string>
+
+    <!-- Report Viewer -->
+    <string name="action_bar_delete">删除</string>
+    <string name="report_type">类型:</string>
+    <string name="report_tag">标签:</string>
+    <string name="report_date">日期:</string>
+    <string name="report_status">状态:</string>
+    <string name="report_log_path">路径:</string>
+    <string name="report_log_size">大小:</string>
+    <string name="report_description">描述:</string>
+    <string name="report_attachments">日志:</string>
+
+    <!-- Common -->
+    <string name="app_settings">设置</string>
+    <string name="app_help">帮助</string>
+    <string name="app_about">关于</string>
+    <string name="toast_no_data_connection">没有数据连接.</string>
+    <string name="action_bar_edit">编辑</string>
+    <string name="action_bar_view">查看</string>
+    <string name="action_bar_send">发送</string>
+    <string name="action_bar_discard">放弃</string>
+    <string name="action_bar_save_draft">保存草稿</string>
+    <string name="action_bar_attach_screen">添加截屏</string>
+    <string name="action_bar_attach_file">添加文件</string>
+    <string name="action_bar_select_all">全选</string>
+    <string name="action_bar_upload">上传</string>
+    <string name="action_bar_pause">暂停</string>
+    <string name="and">" 和 "</string>
+
+    <!-- Launcher -->
+    <string name="launcher_report_drafts">缺陷报告草稿列表</string>
+    <string name="launcher_report_bug">报告缺陷</string>
+    <string name="launcher_manage_reports">管理报告</string>
+    <string name="launcher_setup_wizard">设置向导</string>
+    <string name="launcher_dlg_msg_magic_key_known">你知道吗,触发一个报告可以同时按%s,试试吧!</string>
+    
+    <string name="launcher_dlg_btn_proceed">知道了</string>
+
+    <!-- Editor -->
+    <string name="editor_select_cateogry">选择分类</string>
+    <string name="editor_category_hint">选择分类</string>
+    <string name="editor_summary_hint">摘要</string>
+    <string name="editor_description_hint">描述</string>
+    <string name="editor_compose_bug">写缺陷报告</string>
+
+    <!-- Report List -->
+    <string name="report_list_tab_sent">已发送 </string>
+    <string name="report_list_tab_drafts">草稿</string>
+    <string name="report_list_tab_outbox">发送箱</string>
+    <string name="report_list_tab_invalid">无效</string>
+    <string name="report_list_item_no_title"><![CDATA[<没有命名>]]></string>
+    <string name="report_list_item_no_desc"><![CDATA[<没有描述>]]></string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_wizard_istronxyz_employee">我是创锐思员工.</string>
+    <string name="setup_reset">复位</string>
+    <string name="setup_done">完成</string>
+    <string name="setup_skip">跳过</string>
+
+    <!-- Key code to name mapping -->
+    <string name="KEYCODE_3">主屏</string>
+    <string name="KEYCODE_24">音量增加</string>
+    <string name="KEYCODE_25">音量减少</string>
+    <string name="KEYCODE_26">电源</string>
+    <string name="KEYCODE_82">菜单</string>
+
+    <!-- Help content -->
+    <string name="help_title">意见反馈/帮助</string>
+    <string name="help_content">"
+Q：仅在无线局域网下上传？ 
+A：若您勾选此选项， 报告将仅在无线局域网络下为您上传。 若您选择上传时没有无线局域网络环境， 报告将自动存于暂存箱，并在您连接到无线局域网后为您上传。 
+
+Q：用户体验计划？ 
+A：若您勾选此选项， 当系统发生程序强行关闭等问题时， 后台将自动收集系统日志并上传报告。 这将有助于我们分析问题并持续改进。 但勾选此选项可能产生较大流量， 建议您同时勾选“仅在无线局域网下上传”选项。 
+
+Q:还可以怎样联系到我们？
+A:您有任何问题还可以拨打4008-365-365客户服务热线（仅需要支付市话费）或登录 http://dream.tronxyz.com 反馈问题、了解最新的产品信息。
+    "</string>
+
+
+    <string name="help_answer_magic_keys">\"报告缺陷\"</string>
+    <string name="editor_reminder">温馨提示：您的手机刚才发生了一个系统稳定性问题，您还记得刚才的操作步骤么？如果记得，请您填写在下面的描述区域，并提交。谢谢您的帮助！</string>
+    <string name="audio_record">开始录音</string>
+    <string name="submit_report">提交</string>
+    <string name="attachmentbutton">添加图片</string>
+
+    <string name="problem_description_introduction">问题描述</string>
+    <string name="problem_description_hint">请留下您的意见和建议，我们会持续跟进......</string>
+    <string name="problem_description_image_introduction">反馈附图</string>
+    <string name="problem_description_button_cancel">取消</string>
+    <string name="problem_description_button_next">下一步</string>
+    <string name="problem_description_dialog_cancel">取消</string>
+    <string name="problem_description_dialog_info">该报告还未提交，放弃本次编辑吗？</string>
+    <string name="problem_description_dialog_ok">确定</string>
+    <string name="problem_description_toast_info">请填写问题描述或添加图片</string>
+    <string name="problem_description_error_select_img">无法打开图片程序，请稍后再试。</string>
+    <string name="problem_description_dialog_prompt">提示</string>
+    <string name="problem_description_select_same_file">选择的文件已经存在</string>
+    <string name="problem_description_max_length_toast">问题描述最多只能输入2000字。</string>
+    <string name="problem_description_add_more">添加更多</string>
+    <string name="problem_description_no_add_more">收起</string>
+    <string name="problem_user_info_thanks">非常感谢您所反馈的问题， 为能持续的跟进及解决您所反馈的问题， 请您留下个人联系方式， 以便我们可以及时联系到您， 或将解决方案通知您。 谢谢！ </string>
+    <string name="problem_user_info_phone">手机号码</string>
+    <string name="problem_user_info_email">电子邮箱</string>
+    <string name="problem_user_info_pre">上一步</string>
+    <string name="problem_user_info_commit">提交</string>
+    <string name="problem_setting_wifi_commit">仅在无线局域网下上传</string>
+    <string name="problem_setting_user_plan">参与用户体验计划</string>
+    <string name="problem_setting_user_plan_introduction_on">系统检测到问题及系统日志自动提交</string>
+    <string name="problem_setting_user_plan_introduction_off">系统检测到问题及系统日志不自动提交</string>
+    <string name="problem_setting_category_other">其他</string>
+</resources>

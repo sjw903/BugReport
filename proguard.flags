@@ -1,0 +1,5 @@
+-libraryjars lib/commons-exec-1.1.jar
+-dontshrink
+-dontoptimize
+-dontobfuscate
+-dontpreverif

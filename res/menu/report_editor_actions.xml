@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2010 Google Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/report_editor_send"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:showAsAction="always|withText"
+        android:title="@string/action_bar_send"/>
+    <item
+        android:id="@+id/report_editor_discard"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="always|withText"
+        android:title="@string/action_bar_discard"/>
+    <item
+        android:id="@+id/report_editor_save_draft"
+        android:title="@string/action_bar_save_draft"/>
+<!--     <item
+        android:id="@+id/report_editor_attach_screenshot"
+        android:title="@string/action_bar_attach_screen"/> -->
+<!--     <item
+        android:id="@+id/report_editor_attach_file"
+        android:title="@string/action_bar_attach_file"/> -->
+    <item
+        android:id="@+id/report_editor_settings"
+        android:title="@string/app_settings"/>
+    <item
+        android:id="@+id/report_editor_help"
+        android:title="@string/app_help"/>
+    <item
+        android:id="@+id/report_editor_about"
+        android:title="@string/app_about"/>
+</menu>

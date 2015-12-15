@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+ * Copyright (C) 2009 Motorola Inc.
+-->
+<resources>
+    <!-- SocialSharing general -->
+    <dimen name="SOCIALSHARING_LabelWidgetPad">5dip</dimen>
+    <dimen name="SOCIALSHARING_WidgetGroupPad">5dip</dimen>
+
+    <!-- SharePhoto Activity -->
+    <dimen name="SOCIALSHARING_SharePhoto_PadLeft">10dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_PadRight">10dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_PadTop">10dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_PadBottom">5dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_ImgPreviewHeight">192dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_ImgPreviewWidth">192dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_ImgPreview_PadTop">4dip</dimen>
+    <dimen name="SOCIALSHARING_SharePhoto_ImgPreview_PadLeft_l">4dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreviewHeight">146dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreviewWidth">174dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreview_PadTop">24dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreview_PadRight">0dip</dimen>
+    <dimen name="SOCIALSHARING_ShareAlbum_ImgPreview_PadLeft_l">8dip</dimen>
+    <dimen name="SOCIALSHARING_Share_ImgPreview_PadBottom">18dip</dimen>
+    <dimen name="SOCIALSHARING_OverlayText_PadBottom">12dip</dimen>
+
+    <!-- UploadErrorDlg -->
+    <dimen name="SOCIALSHARING_UploadErrorDlg_PadLeft">10dip</dimen>
+    <dimen name="SOCIALSHARING_UploadErrorDlg_PadRight">10dip</dimen>
+    <dimen name="SOCIALSHARING_UploadErrorDlg_PadTop">5dip</dimen>
+    <dimen name="SOCIALSHARING_UploadErrorDlg_PadBottom">5dip</dimen>
+    <dimen name="SOCIALSHARING_UploadErrorDlg_ImgWidth">96dip</dimen>
+    <dimen name="SOCIALSHARING_UploadErrorDlg_ImgHeight">96dip</dimen>
+    <dimen name="SOCIALSHARING_PhotoPreviewSize">128dip</dimen>
+
+    <!-- NotifyUploadProgress -->
+    <dimen name="SOCIALSHARING_NotifyUploadProgress_PadLeft">4dip</dimen>
+    <dimen name="SOCIALSHARING_NotifyUploadProgress_PadRight">4dip</dimen>
+    <dimen name="SOCIALSHARING_NotifyUploadProgress_PadTop">4dip</dimen>
+    <dimen name="SOCIALSHARING_NotifyUploadProgress_PadBottom">4dip</dimen>
+    <dimen name="SOCIALSHARING_NotifyUploadProgress_ImgThumbWidth">64dip</dimen>
+    <dimen name="SOCIALSHARING_NotifyUploadProgress_ImgThumbHeight">64dip</dimen>
+    <dimen name="SOCIALSHARING_NotifyUploadProgress_ProgressHeight">20dip</dimen>
+    <dimen name="SOCIALSHARING_NotifyUploadProgress_MessageHeight">30dip</dimen>
+
+    <dimen name="edit_status_provider_area_1">100dip</dimen>
+    <dimen name="edit_status_provider_area_2">125dip</dimen>
+    <dimen name="edit_status_provider_area_3">160dip</dimen>
+    <dimen name="edit_status_provider_area_more">190dip</dimen>
+    <dimen name="edit_status_edit_text">16sp</dimen>
+    <dimen name="edit_status_status_height">32dip</dimen>
+    <dimen name="edit_status_status_width">32dip</dimen>
+    <dimen name="edit_status_status_text">13sp</dimen>
+    <dimen name="edit_status_pad">6dip</dimen>
+    <dimen name="edit_status_status_pad">14dip</dimen>
+
+    <dimen name="drag_list_item_height">60dp</dimen>
+
+
+    <dimen name="fragment_report_text_size">16sp</dimen>
+    <dimen name="fragment_report_title_size">18sp</dimen>
+</resources>

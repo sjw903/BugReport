@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="common_entries_list_preference">
+        <item>总是</item>
+        <item>每次提示</item>
+        <item>从不</item>
+    </string-array>
+
+    <string-array name="common_entryvalues_list_preference">
+        <item>是</item>
+        <item>提示</item>
+        <item>否</item>
+    </string-array>
+</resources>

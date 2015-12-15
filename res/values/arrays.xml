@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="common_entries_list_preference">
+        <item>Always</item>
+        <item>Prompt me each time</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="common_entryvalues_list_preference">
+        <item>Yes</item>
+        <item>Prompt</item>
+        <item>NO</item>
+    </string-array>
+
+    <string-array name="server_entries_list_preference">
+        <item>debug - 192.168.68.140</item>
+        <item>new server - 192.168.69.63</item>
+        <item>final server - 192.168.69.64</item>
+    </string-array>
+    <string-array name="server_entryvalues_list_preference">
+        <item>http://192.168.68.140:8080/PanicReport</item>
+        <item>http://192.168.69.63:8080/PanicReport</item>
+        <item>http://192.168.69.64:8080/PanicReport</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tronxyz.bug_report.ui.DragSortListView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:bugreport="http://schemas.android.com/apk/res/com.tronxyz.bug_report"
+  android:id="@android:id/list"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:paddingTop="5dp"
+  android:paddingBottom="5dp"
+  bugreport:collapsed_height="10dp"
+  bugreport:drag_scroll_start="0.33"
+  bugreport:max_drag_scroll_speed="0.3"
+  bugreport:float_background_color="#000000"
+  bugreport:remove_mode="none"
+  bugreport:track_drag_scroll="false" />

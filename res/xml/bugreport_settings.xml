@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- no subtitle and about any longer -->
+    <Preference
+        android:key="settings_report_manager"
+        android:order="0"
+        android:title="@string/launcher_manage_reports" />
+
+    <!-- <PreferenceCategory -->
+    <!-- android:key="settings_upload" -->
+    <!-- android:title="@string/settings_upload" > -->
+    <CheckBoxPreference
+        android:key="settings_report_commit_in_wifi"
+        android:order="1"
+        android:persistent="false"
+        android:title="@string/problem_setting_wifi_commit" />
+    <CheckBoxPreference
+        android:key="settings_report_user_plan"
+        android:order="2"
+        android:persistent="false"
+        android:summaryOff="@string/problem_setting_user_plan_introduction_off"
+        android:summaryOn="@string/problem_setting_user_plan_introduction_on"
+        android:title="@string/problem_setting_user_plan" />
+    <!-- </PreferenceCategory> -->
+    <!-- <PreferenceCategory -->
+    <!-- android:key="settings_report_other" -->
+    <!-- android:title="@string/problem_setting_category_other" > -->
+    <Preference
+        android:key="settings_report_help"
+        android:order="7"
+        android:title="@string/app_help" />
+    <!-- <Preference -->
+    <!-- android:key="settings_report_about" -->
+    <!-- android:title="@string/app_about" /> -->
+    <!-- </PreferenceCategory> -->
+
+    <ListPreference
+        android:key="settings_report_server_address"
+        android:order="3"
+        android:persistent="false"
+        android:entries="@array/server_entries_list_preference"
+        android:entryValues="@array/server_entryvalues_list_preference"
+        android:title="server address:(need reboot if change)" />
+
+    <EditTextPreference
+        android:key="settings_report_user_name"
+        android:order="4"
+        android:persistent="false"
+        android:title="user name:" />
+
+    <EditTextPreference
+        android:key="settings_report_user_phone_number"
+        android:order="5"
+        android:persistent="false"
+        android:title="user phone number:" />
+
+    <EditTextPreference
+        android:key="settings_report_user_email"
+        android:order="6"
+        android:persistent="false"
+        android:title="user email:" />
+
+</PreferenceScreen>

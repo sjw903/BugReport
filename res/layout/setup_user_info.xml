@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    tools:context=".ui.Help" >
+
+    <CheckBox
+        android:id="@+id/setup_tronxyz_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        android:text="@string/setup_wizard_istronxyz_employee"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/setup_coreId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/settings_coreid"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/setup_firstName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/settings_fname" />
+
+    <EditText
+        android:id="@+id/setup_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/settings_phone"
+        android:inputType="phone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip" />
+
+    <LinearLayout
+        android:id="@+id/btnReset"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/setup_reset"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:text="@string/setup_reset" />
+
+        <View
+            android:layout_width="10dip"
+            android:layout_height="50dip"
+            android:layout_weight="0" />
+
+        <Button
+            android:id="@+id/setup_done"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:text="@string/setup_done" />
+
+        <View
+            android:layout_width="10dip"
+            android:layout_height="50dip"
+            android:layout_weight="0" />
+
+        <Button
+            android:id="@+id/setup_skip"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:text="@string/setup_skip" />
+    </LinearLayout>
+
+</LinearLayout>

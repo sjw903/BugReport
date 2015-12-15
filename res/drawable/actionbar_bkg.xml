@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/actionbar_bkg_bottom"/>
+	<item>
+		<bitmap android:src="@drawable/actionbar_bkg_middle_left" android:gravity="left"/>
+	</item>
+	<item>
+		<bitmap android:src="@drawable/actionbar_bkg_middle_repeat" android:gravity="center" android:tileMode="repeat"/>
+	</item>
+	<item>
+		<bitmap android:src="@drawable/actionbar_bkg_middle_right" android:gravity="right"/>
+	</item>
+	<item android:drawable="@drawable/actionbar_bkg_top"/>
+</layer-list>

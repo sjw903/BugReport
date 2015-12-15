@@ -1,0 +1,10 @@
+user.coreid=
+user.email=
+user.first.name=
+user.phone=
+user.auto.upload.enabled=true
+user.upload.mobile.allowed=false
+user.battery.percent=0
+user.attach.screenshot=PROMPT
+user.collect.location=true
+user.auto.report.enabled=true

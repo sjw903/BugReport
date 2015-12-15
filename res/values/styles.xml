@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Share Photo -->
+
+    <!-- Set Profile Photo -->
+    <style name="SOCIALSHARING_SetProfile" />
+
+    <!-- UploadErrorDlg -->
+    <style name="SOCIALSHARING_UploadErrorDlg" />
+
+    <style name="SOCIALSHARING_UploadErrorDlg_TextMessage">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#A5A5A5</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="SOCIALSHARING_UploadErrorDlg_ImageThumb" />
+
+    <!-- Notify upload progress -->
+    <style name="SOCIALSHARING_NotifyUploadProgress_Message">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#919395</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ProviderIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:maxHeight">@dimen/edit_status_status_height</item>
+    </style>
+    <style name="NABTTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:actionBarTheme">@null</item>
+    </style>
+</resources>

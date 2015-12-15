@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/summary_view"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/SOCIALSHARING_NotifyUploadProgress_PadLeft"
+    android:paddingRight="@dimen/SOCIALSHARING_NotifyUploadProgress_PadRight"
+    android:paddingTop="@dimen/SOCIALSHARING_NotifyUploadProgress_PadTop"
+    android:paddingBottom="@dimen/SOCIALSHARING_NotifyUploadProgress_PadBottom">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_marginLeft="1dip">
+        <ImageView android:id="@+id/UploadIcon"
+            android:layout_width="25dip" android:layout_height="25dip"
+            android:layout_marginRight="@dimen/SOCIALSHARING_WidgetGroupPad"
+            android:src="@drawable/upload" />
+        <!-- Notify text message -->
+        <TextView style="@style/SOCIALSHARING_NotifyUploadProgress_Message"
+            android:id="@+id/NotifyUploadText"
+            android:layout_marginTop="1dip"
+            android:layout_marginLeft="1dip"
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_marginTop="1dip"
+        android:layout_marginLeft="3dip">
+        <!-- Notify text message -->
+        <TextView style="@style/SOCIALSHARING_NotifyUploadProgress_Message"
+            android:id="@+id/NotifyProgressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/SOCIALSHARING_LabelWidgetPad"/>
+        <ProgressBar style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/NotifyUploadProgressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/SOCIALSHARING_NotifyUploadProgress_ProgressHeight"
+            android:layout_marginLeft="@dimen/SOCIALSHARING_SharePhoto_PadLeft"
+            android:layout_marginTop="@dimen/SOCIALSHARING_LabelWidgetPad"
+            android:layout_marginBottom="@dimen/SOCIALSHARING_LabelWidgetPad" />
+    </LinearLayout>
+</LinearLayout>
