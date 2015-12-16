@@ -5,9 +5,9 @@ import android.os.Parcelable;
 
 public class GusData implements Parcelable {
 
-    public static final String URI_KEY = "com.tronxyz.bug_report.upload.uri";
-    public static final String BYTES_SENT_KEY = "com.tronxyz.bug_report.upload.bytesSent";
-    public static final String UPLOAD_ID_KEY = "com.tronxyz.bug_report.upload.id";
+    public static final String URI_KEY = "com.qiku.bug_report.upload.uri";
+    public static final String BYTES_SENT_KEY = "com.qiku.bug_report.upload.bytesSent";
+    public static final String UPLOAD_ID_KEY = "com.qiku.bug_report.upload.id";
 
     public static final int MIN_PROGRESS_BYTES = 8192;
 

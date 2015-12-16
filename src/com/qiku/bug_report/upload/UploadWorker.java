@@ -249,7 +249,7 @@ public class UploadWorker implements IGusCallback {
     private String getZipLogPath() {
         // createDate = Util.formatDate("yyyy-MM-dd_HH-mm-ss.SSSZ",
         //         mCurrentReport.getCreateTime());
-        createDate = Util.formatDate("yyyy-MM-dd_HH-mm-ss", // time zone info is not useful for tronxyz.
+        createDate = Util.formatDate("yyyy-MM-dd_HH-mm-ss", // time zone info is not useful for qiku.
                 mCurrentReport.getCreateTime());
         File parentFile = new File(mCurrentReport.getLogPath()).getParentFile();
         String parentPath = parentFile == null ? File.separator : parentFile

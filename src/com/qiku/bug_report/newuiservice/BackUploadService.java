@@ -57,7 +57,7 @@ public class BackUploadService extends Service {
                 public void run() {
                     if (mCurrentReport != null) {
                         Message msg = Message.obtain();
-                        msg.what = TaskMaster.TRONXYZ_BUG_REPORT_SEND_LOG;
+                        msg.what = TaskMaster.BUG_REPORT_SEND_LOG;
                         msg.obj = mCurrentReport;
                         mTaskMaster.sendMessage(msg);
                     }

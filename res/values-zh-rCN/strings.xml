@@ -200,7 +200,7 @@
     <string name="report_list_item_no_desc"><![CDATA[<没有描述>]]></string>
 
     <!-- Setup Wizard -->
-    <string name="setup_wizard_istronxyz_employee">我是创锐思员工.</string>
+    <string name="setup_wizard_is_qiku_employee">我是奇酷员工.</string>
     <string name="setup_reset">复位</string>
     <string name="setup_done">完成</string>
     <string name="setup_skip">跳过</string>
@@ -222,7 +222,7 @@ Q：用户体验计划？
 A：若您勾选此选项， 当系统发生程序强行关闭等问题时， 后台将自动收集系统日志并上传报告。 这将有助于我们分析问题并持续改进。 但勾选此选项可能产生较大流量， 建议您同时勾选“仅在无线局域网下上传”选项。 
 
 Q:还可以怎样联系到我们？
-A:您有任何问题还可以拨打4008-365-365客户服务热线（仅需要支付市话费）或登录 http://dream.tronxyz.com 反馈问题、了解最新的产品信息。
+A:您有任何问题还可以拨打4008-360-360客户服务热线（仅需要支付市话费）或登录 http://bbs.qiku.com 反馈问题、了解最新的产品信息。
     "</string>
 
 

@@ -125,7 +125,7 @@ public class JSONHelper {
             if (!TextUtils.isEmpty(us.getCoreID()))
                 userInfo.put(USER_ID, us.getCoreID());
             if (TextUtils.isEmpty(us.getEmail()) && !TextUtils.isEmpty(us.getCoreID())) {
-                userInfo.put(USER_EMAIL, us.getCoreID().trim() + Constants.TRONXYZ_EMAIL_DOMAIN);
+                userInfo.put(USER_EMAIL, us.getCoreID().trim() + Constants.QIKU_EMAIL_DOMAIN);
             }
         }
 

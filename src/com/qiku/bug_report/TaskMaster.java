@@ -23,14 +23,14 @@ import java.util.List;
 
 public class TaskMaster extends Handler {
     static final String tag = "BugReportTaskMaster";
-    public static final int TRONXYZ_BUG_REPORT_DEVICE_START = 0;
-    public static final int TRONXYZ_BUG_REPORT_SEND_LOG = 4;
-    public static final int TRONXYZ_BUG_REPORT_CHECK_UNSENT_LOG = 6;
-    public static final int TRONXYZ_BUG_REPORT_NETWORK_AVAILABLE = 8;
-    public static final int TRONXYZ_BUG_REPORT_POWER_CONNECTED = 9;
-    public static final int TRONXYZ_BUG_REPORT_BATTERY_THRESHOLD_CHANGED = 10;
-    public static final int TRONXYZ_BUG_REPORT_STARTED = 11;
-    public static final String BUGREPORT_INTENT_EXTRA_DROPBOX_BACKLOG_TRIGGER = "tronxyz.intent.extra.BUGREPORT.DROPBOX.BACKLOG.TRIGGER";
+    public static final int BUG_REPORT_DEVICE_START = 0;
+    public static final int BUG_REPORT_SEND_LOG = 4;
+    public static final int BUG_REPORT_CHECK_UNSENT_LOG = 6;
+    public static final int BUG_REPORT_NETWORK_AVAILABLE = 8;
+    public static final int BUG_REPORT_POWER_CONNECTED = 9;
+    public static final int BUG_REPORT_BATTERY_THRESHOLD_CHANGED = 10;
+    public static final int BUG_REPORT_STARTED = 11;
+    public static final String BUGREPORT_INTENT_EXTRA_DROPBOX_BACKLOG_TRIGGER = "qiku.intent.extra.BUGREPORT.DROPBOX.BACKLOG.TRIGGER";
 
     private ShellScriptLogCollector mLogCollector = null;
     private BugReportDAO mDao = null;
@@ -46,15 +46,15 @@ public class TaskMaster extends Handler {
 
     public void handleMessage(Message msg) {
         switch (msg.what) {
-            case TRONXYZ_BUG_REPORT_DEVICE_START:
+            case BUG_REPORT_DEVICE_START:
                 onSystemStart();
-            case TRONXYZ_BUG_REPORT_STARTED: {
+            case BUG_REPORT_STARTED: {
                 checkUncompletedReports();
                 uploadReport(null);
                 checkUnarchivedReports();
                 break;
             }
-            case TRONXYZ_BUG_REPORT_SEND_LOG:
+            case BUG_REPORT_SEND_LOG:
                 Log.i(tag, "Sending report");
                 if (msg.obj != null && msg.obj instanceof ComplainReport) {
                     ComplainReport report = (ComplainReport) msg.obj;
@@ -62,15 +62,15 @@ public class TaskMaster extends Handler {
                     uploadReport(report);
                 }
                 break;
-            case TRONXYZ_BUG_REPORT_NETWORK_AVAILABLE:
+            case BUG_REPORT_NETWORK_AVAILABLE:
                 Log.i(tag, "Network became available, retry upload now...");
                 reuploadReports();
                 break;
-            case TRONXYZ_BUG_REPORT_POWER_CONNECTED:
+            case BUG_REPORT_POWER_CONNECTED:
                 Log.i(tag, "Power connected, retry upload now...");
                 reuploadReports();
                 break;
-            case TRONXYZ_BUG_REPORT_BATTERY_THRESHOLD_CHANGED:
+            case BUG_REPORT_BATTERY_THRESHOLD_CHANGED:
                 Log.i(tag, "Battery threshold changed, retry upload now...");
                 reuploadReports();
                 break;

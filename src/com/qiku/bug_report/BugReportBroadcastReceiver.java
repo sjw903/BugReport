@@ -20,17 +20,17 @@ public class BugReportBroadcastReceiver extends BroadcastReceiver {
 		Log.d(tag, "Received broadcast : " + action);
 		if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
 			Log.d(tag, "Start service:" + action);
-			sendMsgToMaster(context, TaskMaster.TRONXYZ_BUG_REPORT_DEVICE_START);
+			sendMsgToMaster(context, TaskMaster.BUG_REPORT_DEVICE_START);
 		} else if (ConnectivityManager.CONNECTIVITY_ACTION.equals(action)) {
 			sendMsgToMaster(context,
-					TaskMaster.TRONXYZ_BUG_REPORT_NETWORK_AVAILABLE);
+					TaskMaster.BUG_REPORT_NETWORK_AVAILABLE);
 		} else if (Intent.ACTION_POWER_CONNECTED.equals(action)) {
 			sendMsgToMaster(context,
-					TaskMaster.TRONXYZ_BUG_REPORT_POWER_CONNECTED);
+					TaskMaster.BUG_REPORT_POWER_CONNECTED);
 		} else if (Constants.BUGREPORT_INTENT_BATTERY_THRESHOLD_CHANGED
 				.equals(action)) {
 			sendMsgToMaster(context,
-					TaskMaster.TRONXYZ_BUG_REPORT_BATTERY_THRESHOLD_CHANGED);
+					TaskMaster.BUG_REPORT_BATTERY_THRESHOLD_CHANGED);
 		} else if (DropBoxManager.ACTION_DROPBOX_ENTRY_ADDED.equals(action)) {
 			String tagName = intent.getStringExtra(DropBoxManager.EXTRA_TAG);
 			Log.d(tag, "Dropbox event : " + tagName);

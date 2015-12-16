@@ -69,11 +69,11 @@ public class GusWS {
 
 			StringBuffer addtionalUrl = new StringBuffer();
 
-			addtionalUrl.append("uid=").append("bug2go@163.com").append("&");
+			addtionalUrl.append("uid=").append("bugreport@qiku.com").append("&");
 			StringBuffer temp = new StringBuffer();
 			temp.append("logonPassword=").append("123456789")
 					.append("&client=android&version=2.0.0")
-					.append("&appType=pan").append("&channel=tronxyz");
+					.append("&appType=pan").append("&channel=qiku");
 			String data = temp.toString();
 			try {
 				data = PBECoderUtil.encrypty("SNMTLogon", data);
@@ -344,7 +344,7 @@ public class GusWS {
 						// 记录开机时长上传到新文件夹
 						String folder = null;
 						if (j.isZip == true) {
-							folder = "bug2go";
+							folder = "bugreport";
 						} else {
 							folder = "APR";
 						}

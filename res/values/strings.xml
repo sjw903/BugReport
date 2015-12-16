@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Tronxyz PanicReport</string>
+    <string name="app_name">Qiku PanicReport</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="apply">Apply</string>
@@ -36,7 +36,7 @@
     <string name="settings_phone">Phone Number</string>
     <string name="settings_dialog_title_edittext_phone">Enter your phone number</string>
     <string name="settings_coreid">Employee ID</string>
-    <string name="settings_dialog_title_edittext_coreid">Enter your Tronxyz employee ID</string>
+    <string name="settings_dialog_title_edittext_coreid">Enter your Qiku employee ID</string>
     <string name="settings_additional_logs">Additional logs</string>
     <string name="settings_add_screenshot">Attach screenshots</string>
     <string name="settings_collect_location">Collect my location</string>
@@ -89,7 +89,7 @@
     <string name="alert_dialog_title_contactinfo">Contact info required</string>
     <string name="alert_dialog_message_contactinfo">Please make sure all required info in the settings are configured before sending this complaint report.</string>
     <string name="alert_dialog_title_error">Error information</string>
-    <string name="alert_dialog_message_error">Bug2Go encountered a problem, please try again later.</string>
+    <string name="alert_dialog_message_error">PanicReport encountered a problem, please try again later.</string>
     <string name="alert_dialog_title_use_magic_key">Magic keys</string>
     <string name="alert_dialog_message_use_magic_key">Please press the magic keys to trigger log collection. Ask your device administrator for the exact keys to press.</string>
     <string name="alert_dialog_title_invalid_logfile">Invalid log file</string>
@@ -105,7 +105,7 @@
     <string name="alert_dialog_dont_show_again">Don\'t show this again.</string>
     <string name="alert_dialog_title_file_mgr_required">No file manager.</string>
     <string name="alert_dialog_message_file_mgr_required">Please install the file manager or a compatible application. Do you want to download it now?</string>
-    <string name="alert_dialog_incompatible_system">The installed version of Bug2Go is not compatible with your system software</string>
+    <string name="alert_dialog_incompatible_system">The installed version of PanicReport is not compatible with your system software</string>
     <string name="alert_dialog_report_incompleted">You selected an incomplete report. Do you want to edit it now?</string>
     <string name="alert_dialog_about_title">About</string>
     <string name="alert_dialog_about_msg" formatted="false">Version: %s\nDevice UID: %s\n</string>
@@ -179,7 +179,7 @@
     <string name="report_list_tab_drafts">Drafts</string>
     <string name="report_list_tab_outbox">Outbox</string>
     <string name="report_list_tab_invalid">Invalid</string>
-    <string name="setup_wizard_istronxyz_employee">I am a Tronxyz employee.</string>
+    <string name="setup_wizard_is_qiku_employee">I am a Qiku employee.</string>
     <string name="setup_reset">Reset</string>
     <string name="setup_done">Done</string>
     <string name="setup_skip">Skip</string>
@@ -188,7 +188,7 @@
     <string name="KEYCODE_25">Volume down</string>
     <string name="KEYCODE_26">Power</string>
     <string name="KEYCODE_82">Menu</string>
-    <string name="help_title">Tronxyz bugreport/Help</string>
+    <string name="help_title">Qiku bugreport/Help</string>
     <string name="help_content">"
 Q：submit only on wifi? 
 A:choose this, the report will be submit only on wifi, report will save TS when there is not wifi. continue submit when wifi is available .
@@ -197,7 +197,7 @@ Q：user Experience plan ?
 A：choose this, system will collect log and submit when app crash. It will help us continue optimize. A lot of data flow maybe happen when you choose it. You can choose submit only wifi .
 
 Q:You can contact to us in another method
-A:If you have any questions you can dialing service hotline 4008-365-365（The payment of the city call）or access http://dream.tronxyz.com to report problem and get more product information .
+A:If you have any questions you can dialing service hotline 4008-360-360（The payment of the city call）or access http://bbs.qiku.com to report problem and get more product information .
     "</string>
     <string name="help_answer_magic_keys">\"Report a Bug\"</string>
     <string name="editor_reminder">Kindly reminder：Your phone has occurred system issues just now. Do you remember your steps?If yes, could you please write down them and submit? Thank you very much!</string>

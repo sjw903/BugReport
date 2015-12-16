@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="GBK"?>
-<deam version="1.0" xmlns="http://cloud.tronxyz.com/bugreport">
+<deam version="1.0" xmlns="http://cloud.qiku.com/bugreport">
     <namespace_dictionary>
         <tag type="dropbox" name="SYSTEM_LAST_KMSG">
             <namespace>Kernel Panic</namespace>

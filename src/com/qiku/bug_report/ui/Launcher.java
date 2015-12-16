@@ -385,7 +385,7 @@ public class Launcher extends Activity {
                 public void run() {
                     Message msg = Message.obtain();
                     saveUserChanges();
-                    msg.what = TaskMaster.TRONXYZ_BUG_REPORT_SEND_LOG;
+                    msg.what = TaskMaster.BUG_REPORT_SEND_LOG;
                     msg.obj = mCurrentReport;
                     mTaskMaster.sendMessage(msg);
                 }

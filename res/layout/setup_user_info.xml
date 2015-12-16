@@ -10,12 +10,12 @@
     tools:context=".ui.Help" >
 
     <CheckBox
-        android:id="@+id/setup_tronxyz_employee"
+        android:id="@+id/setup_qiku_employee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:checked="true"
-        android:text="@string/setup_wizard_istronxyz_employee"
+        android:text="@string/setup_wizard_is_qiku_employee"
         android:textSize="20sp" />
 
     <EditText

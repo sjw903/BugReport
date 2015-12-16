@@ -28,25 +28,25 @@ public class Constants {
     /*
      * Intents and intent parameters
      */
-    public static final String BUGREPORT_INTENT_BUGREPORT_START = "tronxyz.intent.action.BUGREPORT.START";
-    public static final String BUGREPORT_INTENT_BUGREPORT_ERROR = "tronxyz.intent.action.BUGREPORT.ERR";
-    public static final String BUGREPORT_INTENT_BUGREPORT_END = "tronxyz.intent.action.BUGREPORT.END";
-    public static final String BUGREPORT_INTENT_COLLECT_CATEGORY_LOG = "tronxyz.intent.action.BUGREPORT.COLLECT_CATEGORY_LOG";
-    public static final String BUGREPORT_INTENT_EDIT_REPORT = "tronxyz.intent.action.BUGREPORT.EDIT_REPORT";
-    public static final String BUGREPORT_INTENT_VIEW_REPORT = "tronxyz.intent.action.BUGREPORT.VIEW_REPORT";
-    public static final String BUGREPORT_INTENT_DISCARD_REPORT = "tronxyz.intent.action.BUGREPORT.DISCARD_REPORT";
-    public static final String BUGREPORT_INTENT_SAVE_REPORT = "tronxyz.intent.action.BUGREPORT.SAVE_REPORT";
-    public static final String BUGREPORT_INTENT_PAUSE_UPLOAD = "tronxyz.intent.action.BUGREPORT.PAUSE_UPLOAD";
-    public static final String BUGREPORT_INTENT_BATTERY_THRESHOLD_CHANGED = "tronxyz.intent.action.BUGREPORT.BATTERY_THRESHOLD_CHANGED";
-    public static final String BUGREPORT_INTENT_CONFIGURATION_UPDATED = "tronxyz.intent.action.BUGREPORT.CONFIGURATION_UPDATED";
-    public static final String BUGREPORT_INTENT_REPORT_CREATED = "tronxyz.intent.action.BUGREPORT.REPORT_CREATED";
-    public static final String BUGREPORT_INTENT_REPORT_UPDATED = "tronxyz.intent.action.BUGREPORT.REPORT_UPDATED";
-    public static final String BUGREPORT_INTENT_REPORT_REMOVED = "tronxyz.intent.action.BUGREPORT.REPORT_REMOVED";
-    public static final String BUGREPORT_INTENT_UPLOAD_PRIORITY_CHANGED = "tronxyz.intent.action.BUGREPORT.UPLOAD_PRIORITY_CHANGED";
+    public static final String BUGREPORT_INTENT_BUGREPORT_START = "qiku.intent.action.BUGREPORT.START";
+    public static final String BUGREPORT_INTENT_BUGREPORT_ERROR = "qiku.intent.action.BUGREPORT.ERR";
+    public static final String BUGREPORT_INTENT_BUGREPORT_END = "qiku.intent.action.BUGREPORT.END";
+    public static final String BUGREPORT_INTENT_COLLECT_CATEGORY_LOG = "qiku.intent.action.BUGREPORT.COLLECT_CATEGORY_LOG";
+    public static final String BUGREPORT_INTENT_EDIT_REPORT = "qiku.intent.action.BUGREPORT.EDIT_REPORT";
+    public static final String BUGREPORT_INTENT_VIEW_REPORT = "qiku.intent.action.BUGREPORT.VIEW_REPORT";
+    public static final String BUGREPORT_INTENT_DISCARD_REPORT = "qiku.intent.action.BUGREPORT.DISCARD_REPORT";
+    public static final String BUGREPORT_INTENT_SAVE_REPORT = "qiku.intent.action.BUGREPORT.SAVE_REPORT";
+    public static final String BUGREPORT_INTENT_PAUSE_UPLOAD = "qiku.intent.action.BUGREPORT.PAUSE_UPLOAD";
+    public static final String BUGREPORT_INTENT_BATTERY_THRESHOLD_CHANGED = "qiku.intent.action.BUGREPORT.BATTERY_THRESHOLD_CHANGED";
+    public static final String BUGREPORT_INTENT_CONFIGURATION_UPDATED = "qiku.intent.action.BUGREPORT.CONFIGURATION_UPDATED";
+    public static final String BUGREPORT_INTENT_REPORT_CREATED = "qiku.intent.action.BUGREPORT.REPORT_CREATED";
+    public static final String BUGREPORT_INTENT_REPORT_UPDATED = "qiku.intent.action.BUGREPORT.REPORT_UPDATED";
+    public static final String BUGREPORT_INTENT_REPORT_REMOVED = "qiku.intent.action.BUGREPORT.REPORT_REMOVED";
+    public static final String BUGREPORT_INTENT_UPLOAD_PRIORITY_CHANGED = "qiku.intent.action.BUGREPORT.UPLOAD_PRIORITY_CHANGED";
     public static final String BUGREPORT_INTENT_EXTRA_PRIORITY_FROM = "PRIORITY_FROM";
     public static final String BUGREPORT_INTENT_EXTRA_PRIORITY_TO = "PRIORITY_TO";
-    public static final String BUGREPORT_INTENT_UPLOAD_PAUSED = "tronxyz.intent.action.BUGREPORT.UPLOAD_PAUSED";
-    public static final String BUGREPORT_INTENT_UPLOAD_UNPAUSED = "tronxyz.intent.action.BUGREPORT.UPLOAD_UNPAUSED";
+    public static final String BUGREPORT_INTENT_UPLOAD_PAUSED = "qiku.intent.action.BUGREPORT.UPLOAD_PAUSED";
+    public static final String BUGREPORT_INTENT_UPLOAD_UNPAUSED = "qiku.intent.action.BUGREPORT.UPLOAD_UNPAUSED";
     public static final String BUGREPORT_INTENT_EXTRA_REPORT_IDS = "REPORT_IDS";
 
     public static final String BUGREPORT_INTENT_PARA_CATEGORY = "ISSUE_CATEGORY";
@@ -72,10 +72,10 @@ public class Constants {
     public static final String BUGREPORT_SHELL_ERROR_NOSTORAGE = "nostorage";
 
     //Reliable Uploader Intents
-    public static final String BUGREPORT_INTENT_UPLOAD_PROGRESS = "tronxyz.intent.action.upload.progress";
+    public static final String BUGREPORT_INTENT_UPLOAD_PROGRESS = "qiku.intent.action.upload.progress";
 
-    public static final String BUGREPORT_INTENT_USER_SETTINGS_UPDATED = "tronxyz.intent.action.BUGREPORT.USER_SETTINGS_UPDATED";
-    public static final String BUGREPORT_PERMISSION_USER_SETTINGS =  "com.tronxyz.bug_report.permission.USER_SETTINGS";
+    public static final String BUGREPORT_INTENT_USER_SETTINGS_UPDATED = "qiku.intent.action.BUGREPORT.USER_SETTINGS_UPDATED";
+    public static final String BUGREPORT_PERMISSION_USER_SETTINGS =  "com.qiku.bug_report.permission.USER_SETTINGS";
 
     //Report Collector
     public static final String REPORT_INFO_LABEL = "report_info";
@@ -85,7 +85,7 @@ public class Constants {
     public static final String LOG_SCREENSHOT_LABEL= "screenshot";
     public static final String LOG_FILES_REMOVE_LABEL ="files_to_remove";
     public static final String TIMESTAMP_LABEL = "timestamp";
-    public static final String TRONXYZ_EMAIL_DOMAIN = "@tronxyz.com";
+    public static final String QIKU_EMAIL_DOMAIN = "@qiku.com";
 
     public static final int KB = 1024;
     public static final int MB = KB * 1024;

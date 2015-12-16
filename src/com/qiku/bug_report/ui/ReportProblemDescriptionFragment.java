@@ -330,11 +330,11 @@ public class ReportProblemDescriptionFragment extends Fragment implements
 
     private void updateImageAndPhonePanel(boolean showAddMore) {
         if (showAddMore) {
-            iv_add_more_arrow.setBackgroundResource(R.drawable.bug2go_ic_blue_close);
+            iv_add_more_arrow.setBackgroundResource(R.drawable.bugreport_ic_blue_close);
             tv_add_more_text.setText(R.string.problem_description_no_add_more);
             mShowAddMore = false;
         } else {
-            iv_add_more_arrow.setBackgroundResource(R.drawable.bug2go_ic_blue_open);
+            iv_add_more_arrow.setBackgroundResource(R.drawable.bugreport_ic_blue_open);
             tv_add_more_text.setText(R.string.problem_description_add_more);
             mShowAddMore = true;
         }

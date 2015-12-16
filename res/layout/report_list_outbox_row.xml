@@ -69,7 +69,7 @@
                     android:singleLine="true"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
             </LinearLayout>
-        </com.tronxyz.bug_report.ui.ProgressLayout>
+        </com.qiku.bug_report.ui.ProgressLayout>
     </LinearLayout>
 
     <TextView

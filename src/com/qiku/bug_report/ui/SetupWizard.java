@@ -23,7 +23,7 @@ import com.qiku.bug_report.model.UserSettings;
 
 public class SetupWizard extends Activity {
 
-	CheckBox mTronxyz_employee;
+	CheckBox mQiku_employee;
 	EditText mCoreId;
 	EditText mFirstName;
 	EditText mPhoneNumber;
@@ -39,7 +39,7 @@ public class SetupWizard extends Activity {
 		mTaskMaster = ((BugReportApplication) getApplicationContext())
 				.getTaskMaster();
 
-		mTronxyz_employee = (CheckBox) findViewById(R.id.setup_tronxyz_employee);
+		mQiku_employee = (CheckBox) findViewById(R.id.setup_qiku_employee);
 		mCoreId = (EditText) findViewById(R.id.setup_coreId);
 
 		mFirstName = (EditText) findViewById(R.id.setup_firstName);
@@ -64,10 +64,10 @@ public class SetupWizard extends Activity {
 		String email = settings.getEmail();
 
 		if (!TextUtils.isEmpty(email) && TextUtils.isEmpty(coreid)) {
-			mTronxyz_employee.setChecked(false);
+			mQiku_employee.setChecked(false);
 		}
 
-		if (mTronxyz_employee.isChecked()) {
+		if (mQiku_employee.isChecked()) {
 			if (!TextUtils.isEmpty(coreid))
 				mCoreId.setText(coreid);
 		} else {
@@ -114,7 +114,7 @@ public class SetupWizard extends Activity {
 	}
 
 	private void addListener() {
-		mTronxyz_employee
+		mQiku_employee
 				.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 					public void onCheckedChanged(CompoundButton buttonView,
 							boolean isChecked) {
@@ -133,7 +133,7 @@ public class SetupWizard extends Activity {
 		mBtnReset.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				// chenf
-				mTronxyz_employee.setChecked(true);
+				mQiku_employee.setChecked(true);
 				mCoreId.setText(null);
 				mFirstName.setText(null);
 				mPhoneNumber.setText(null);
@@ -157,10 +157,10 @@ public class SetupWizard extends Activity {
 				// Save user settings to file
 				UserSettings settings = mTaskMaster.getConfigurationManager()
 						.getUserSettings();
-				if (mTronxyz_employee.isChecked()) {
+				if (mQiku_employee.isChecked()) {
 					settings.setCoreID(mCoreId.getText().toString());
 					settings.setEmail(settings.getCoreID()
-							+ Constants.TRONXYZ_EMAIL_DOMAIN);
+							+ Constants.QIKU_EMAIL_DOMAIN);
 				} else {
 					settings.setCoreID(null);
 					settings.setEmail(mCoreId.getText().toString());

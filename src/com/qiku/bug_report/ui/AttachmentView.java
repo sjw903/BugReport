@@ -159,7 +159,7 @@ public class AttachmentView extends LinearLayout {
     }
 
     /**
-     * This is called when the tr-bugreport finishes log collection
+     * This is called when the qk-bugreport finishes log collection
      */
     @SuppressWarnings("deprecation")
 	public void onCollectorEnd(ComplainReport report){
@@ -194,7 +194,7 @@ public class AttachmentView extends LinearLayout {
      *
      * @param fileName
      * @param enabled should this view be enabled or not
-     * @param isMainLog  Is the log file collected by the tr-bugreport?
+     * @param isMainLog  Is the log file collected by the qk-bugreport?
      */
     private void updateViewWithFile(final String fileName, boolean enabled, boolean isMainLog){
         if(fileName == null)

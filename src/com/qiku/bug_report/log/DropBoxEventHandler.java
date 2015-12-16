@@ -207,7 +207,7 @@ public class DropBoxEventHandler extends Service {
         mTaskMaster.getBugReportDAO().saveReport(report);
         // post to upload queue immediately
         Message msg = Message.obtain();
-        msg.what = TaskMaster.TRONXYZ_BUG_REPORT_SEND_LOG;
+        msg.what = TaskMaster.BUG_REPORT_SEND_LOG;
         msg.obj = report;
         mTaskMaster.sendMessage(msg);
     }

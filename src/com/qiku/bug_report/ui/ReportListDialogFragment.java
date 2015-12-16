@@ -147,7 +147,7 @@ public class ReportListDialogFragment extends DialogFragment {
 
 	private void sendReport(ComplainReport report) {
 		Message msg = Message.obtain();
-		msg.what = TaskMaster.TRONXYZ_BUG_REPORT_SEND_LOG;
+		msg.what = TaskMaster.BUG_REPORT_SEND_LOG;
 		msg.obj = report;
 		mTaskMaster.sendMessage(msg);
 	}

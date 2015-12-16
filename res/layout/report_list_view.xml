@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.qiku.bug_report.ui.DragSortListView
   xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:bugreport="http://schemas.android.com/apk/res/com.tronxyz.bug_report"
+  xmlns:bugreport="http://schemas.android.com/apk/res/com.qiku.bug_report"
   android:id="@android:id/list"
   android:layout_width="match_parent"
   android:layout_height="match_parent"

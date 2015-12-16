@@ -6,6 +6,6 @@ BugReport allows the user to manually generate a bugreport to the SD Card or
 internal memory.  It can then be offloaded from the device via email or
 upload to a server for direct submission to a bug-tracking system.
 
-BugReport consists of a Java app (BugReport.apk) and a native service tr-bugreport.
+BugReport consists of a Java app (PanicReport.apk) and a native service qk-bugreport.
 It requires a service definition in the device's init file (init.<device>.rc),
 which specifies they keycodes used for the Magic Key Press trigger.
