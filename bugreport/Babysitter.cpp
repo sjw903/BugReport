@@ -4,6 +4,7 @@
 #include <fcntl.h>
 #include <dirent.h>
 #include <sys/prctl.h>
+#include <string.h>
 #include <errno.h>
 
 #include "Utils.h"

@@ -229,5 +229,7 @@ A:If you have any questions you can dialing service hotline 4008-360-360（The p
     <string name="problem_setting_user_plan_introduction_on">Automatically submit System log when detect bug</string>
     <string name="problem_setting_user_plan_introduction_off">manually submit System log when detect bug</string>
     <string name="problem_setting_category_other">Other</string>
+    <string name="report_list_item_no_title">no title</string>
+    <string name="report_list_item_no_desc">no description</string>
 
 </resources>

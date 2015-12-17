@@ -1,3 +1,4 @@
+#include <string.h>
 #include <errno.h>
 #include "Utils.h"
 #include "Killer.h"
